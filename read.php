@@ -79,7 +79,9 @@ $r = @mysqli_query ( $link, $sql ) ;
 				echo '<td class="col-3">' . $row['item_desc'] . '</td>';
 				echo '<td class="col-3"> <img class="img-thumbnail" style="width: 70px; height: 80px" src=' . $row['item_img'] . '></td>';
 				echo '<td class="col-3"> £' . $row['item_price'] . '</td>';
-				echo '<td class="col-3 mb-3"><a href="update.php?item_id=' . $row['item_id'] . '">Edit</a></td>';
+				echo '<form action=' . '"' . 'update.php?item_id=' . $row['item_id'] . '"' . 'method="get">';
+			        echo '<input type="submit" name="submit" value="Edit">';
+			        echo '</form><td>'
 				echo '<td class="col-3 mb-3">';
 				echo '<form action=' . '"' . 'delete.php?item_id=' . $row['item_id'] . '"' . 'method="post">';
 			        echo '<input type="submit" name="submit" value="Delete">';
