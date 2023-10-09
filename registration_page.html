@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <title>Create account</title>
+    <style>
+      body {
+        font-family: "Changa";
+        font-size: 22px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container py-3">
+      <div class="row text-center">
+        <div class="col-sm col-md col-lg col-xl">
+          <h1 class="mt-3">CREATE ACCOUNT</h1>
+        </div>
+      </div>
+      <form action="register.php" method="post" enctype="multipart/form-data">
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="form-group">
+              <label for="fn"> First Name</label>
+              <input
+                type="text"
+                id="fn"
+                class="form-control"
+                name="first_name"
+              />
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="form-group">
+              <label for="ln"> Last Name</label>
+              <input
+                type="text"
+                id="ln"
+                class="form-control"
+                name="last_name"
+              />
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="form-group">
+              <label for="em"> Email</label>
+              <input
+                id="em"
+                type="email"
+                class="form-control"
+                name="new_email"
+              />
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="form-group">
+              <label for="pa"> Create new password</label>
+              <input
+                id="pa1"
+                type="password"
+                class="form-control"
+                name="new_password1"
+              />
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="form-group">
+              <label for="pa2"> Confirm password</label>
+              <input
+                id="pa2"
+                type="password"
+                class="form-control"
+                name="new_password2"
+              />
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <input
+              type="submit"
+              class="btn btn-success btn-lg btn-block"
+              value="Create Account"
+            />
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4"></div>
+        </div>
+      </form>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
